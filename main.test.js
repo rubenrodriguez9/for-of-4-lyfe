@@ -1,10 +1,56 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+const addAll = function(num){
+  let total = 0;
+  for(const sum of num){
+    total +=sum;
+  }
+return total;
+}
 
+const countSpaces = function(str){
+  let totalSpaces= 0;
+  for(const space of str){
+    if(space === ' '){
+      totalSpaces= totalSpaces + 1
+    }
+  }
+return totalSpaces;
+}
 
+const countTrues = function(arr){
+  let totalTrue = 0;
 
+  for(const index of arr){
+    if(index === true){
+      totalTrue++;
+    }
 
+  }
+  return totalTrue;
+}
+
+const makeFriendly = function(str){
+ let sentence = '';
+  for(const letter of str){
+    if(letter === '.'){
+      sentence = sentence + '!'
+    }else {
+      sentence = sentence + letter
+    }
+  }
+  return sentence
+}
+
+const cubeAll = function(arr){
+  result = []
+
+  for(const index of arr){
+    result.push(index * index * index)
+  }
+  return result
+}
 
 
 /*********************************
