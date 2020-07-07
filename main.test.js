@@ -52,6 +52,30 @@ const cubeAll = function(arr){
   return result
 }
 
+const addNoises = function(animals){
+  result = []
+  for(const noise of animals){
+    if(noise === 'Fido'){
+      result.push(`Fido says "Woof!"`)
+    }else if(noise === 'Garfield'){
+      result.push("Garfield says \"Meow!\"")
+    }else if(noise === 'Sharp Tooth'){
+      result.push("Sharp Tooth says \"ROWR.\"")
+    }else if(noise === 'Heathcliff'){
+      result.push("Heathcliff says \"Meow!\"")
+    }else if(noise === 'Rolph'){
+      result.push("Rolph says \"Woof!\"")
+    }else if(noise === 'Maisie'){
+      result.push("Maisie says \"Woof!\"")
+    }else if(noise === 'Barnie'){
+      result.push("Barnie says \"ROWR.\"")
+    }
+    
+  }
+return result
+
+}
+
 
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
